@@ -8,11 +8,33 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <div class="row">
-      <span class="typewriter">Current time: </span><span id="digital_time" class="typewriter"></span>
+  <div class="section padding-top-0">
+    <div class="container text-center">
+      <div class="text-center">
+        <span class="typewriter">Current time: </span><span id="digital_time" class="typewriter"></span>
+      </div>
+      <div class="analog-clock-container">
+        <div class="analog-clock-content">
+
+          <div class="analog-clock-hand-container">
+            <div id="analog_hour" class="analog-clock-hand"></div>
+            <div id="analog_minute" class="analog-clock-hand"></div>
+            <div id="analog_second" class="analog-clock-hand"></div>
+            <div class="analog-clock-hand center"></div>
+          </div>
+
+          <div class="analog-clock-dial twelve"></div>
+          <div class="analog-clock-dial three"></div>
+          <div class="analog-clock-dial six"></div>
+          <div class="analog-clock-dial nine"></div>
+        </div>
+      </div>
+      <div id="msg_box" class="padding-left-2 padding-right-2"></div>
     </div>
+    <!-- <div class="container">
+      <div id="msg_box" class="padding-left-2 padding-right-2"></div>
+    </div> -->
   </div>
-  <script src="script.js" type="text/javascript"></script>
+  <script src="script.js" type="module"></script>
 </body>
 </html>
