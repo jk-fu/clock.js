@@ -1,1 +1,1 @@
-# clock.js
+# clock.js - A simple JS clock
